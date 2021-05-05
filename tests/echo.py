@@ -2,6 +2,7 @@ import aiohttp
 import asyncio
 from rich import print
 
+
 async def main():
 
     async with aiohttp.ClientSession() as session:

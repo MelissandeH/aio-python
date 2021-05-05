@@ -1,6 +1,6 @@
-# 
+#
 from echo.src.echo import (
-  _echo_
+    _echo_
 )
 
 #
@@ -12,6 +12,6 @@ app_echo = web.Application()
 #
 app_echo.add_routes([
 
-  web.post('/',   _echo_),
-  
+    web.post('/',   _echo_),
+
 ])
